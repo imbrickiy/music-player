@@ -11,16 +11,15 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#000"
+      "backgroundColor": "#F8F8F8"
     },
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.imbrickiy.music-player"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#000"
+        "backgroundColor": "#F8F8F8"
       },
       "package": "com.imbrickiy.musicplayer"
     },
