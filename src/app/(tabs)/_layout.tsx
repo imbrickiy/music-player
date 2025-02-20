@@ -1,3 +1,5 @@
+import { FontAwesome } from "@expo/vector-icons";
+import { MaterialIcons } from "@expo/vector-icons";
 import { colors, fontSize } from "constants/tokens";
 import { BlurView } from "expo-blur";
 import { Tabs } from "expo-router";
@@ -30,10 +32,54 @@ const TabsNavigation = () => {
         ),
       }}
     >
-      <Tabs.Screen name="wishlist" />
-      <Tabs.Screen name="library" />
-      <Tabs.Screen name="(songs)" />
-      <Tabs.Screen name="artists" />
+      <Tabs.Screen
+        name="wishlist"
+        options={{
+          title: "Whishlist",
+          tabBarIcon: ({ color, focused }) =>
+            focused ? (
+              <FontAwesome name="heart" size={25} color={color} />
+            ) : (
+              <FontAwesome name="heart-o" size={20} color={color} />
+            ),
+        }}
+      />
+      <Tabs.Screen
+        name="library"
+        options={{
+          title: "Library",
+          tabBarIcon: ({ color, focused }) =>
+            focused ? (
+              <MaterialIcons name="playlist-play" size={25} color={color} />
+            ) : (
+              <MaterialIcons name="playlist-play" size={20} color={color} />
+            ),
+        }}
+      />
+      <Tabs.Screen
+        name="(songs)"
+        options={{
+          title: "Search",
+          tabBarIcon: ({ color, focused }) =>
+            focused ? (
+              <FontAwesome name="search" size={25} color={color} />
+            ) : (
+              <FontAwesome name="search" size={20} color={color} />
+            ),
+        }}
+      />
+      <Tabs.Screen
+        name="artists"
+        options={{
+          title: "Home",
+          tabBarIcon: ({ color, focused }) =>
+            focused ? (
+              <MaterialIcons name="home" size={25} color={color} />
+            ) : (
+              <MaterialIcons name="home" size={20} color={color} />
+            ),
+        }}
+      />
     </Tabs>
   );
 };

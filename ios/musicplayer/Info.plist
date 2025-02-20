@@ -28,7 +28,7 @@
         <key>CFBundleURLSchemes</key>
         <array>
           <string>music-player</string>
-          <string>com.imbrickiy.music-player</string>
+          <string>com.imbrickiy.musicplayer</string>
         </array>
       </dict>
       <dict>
