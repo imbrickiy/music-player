@@ -13,3 +13,7 @@ export const fontSize = {
   base: 18,
   lg: 22,
 };
+
+export const screenPadding = {
+  horizontal: 24,
+};

@@ -1,4 +1,5 @@
 import TracksList from "@/components/TracksList";
+import { screenPadding } from "constants/tokens";
 import React, { Component } from "react";
 import { ScrollView, View } from "react-native";
 import { defaultStyles } from "styles";
@@ -8,7 +9,10 @@ export class SongsScreen extends Component {
     return (
       <View style={defaultStyles.container}>
         {/* <Text style={defaultStyles.text}>Songs screen</Text> */}
-        <ScrollView>
+        <ScrollView
+          contentInsetAdjustmentBehavior="automatic"
+          style={{ paddingHorizontal: screenPadding }}
+        >
           <TracksList scrollEnabled={false} />
         </ScrollView>
       </View>
