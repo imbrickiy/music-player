@@ -7,6 +7,8 @@ export class SongsScreen extends Component {
     return (
       <View style={defaultStyles.container}>
         <Text style={defaultStyles.text}>Whishlist screen</Text>
+        {/* Add your wishlist component here */}
+
       </View>
     );
   }

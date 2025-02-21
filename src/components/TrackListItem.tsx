@@ -72,11 +72,13 @@ const styles = StyleSheet.create({
     fontSize: fontSize.sm,
     fontWeight: "600",
     maxWidth: "90%",
+    fontFamily: "Montserrat-ExtraBold",
   },
   trackArtistText: {
     ...defaultStyles.text,
     fontSize: fontSize.xsm,
     fontWeight: "600",
+    fontFamily: "Montserrat-Regular",
     color: colors.muted,
     marginTop: 4,
   },

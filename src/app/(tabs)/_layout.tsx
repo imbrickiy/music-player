@@ -13,6 +13,7 @@ const TabsNavigation = () => {
         tabBarLabelStyle: {
           fontSize: fontSize.xs,
           fontWeight: "600",
+          fontFamily: "Montserrat-Bold"
         },
         headerShown: false,
         tabBarStyle: {
