@@ -8,10 +8,9 @@ export class SongsScreen extends Component {
   render() {
     return (
       <View style={defaultStyles.container}>
-        {/* <Text style={defaultStyles.text}>Songs screen</Text> */}
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
-          style={{ paddingHorizontal: screenPadding }}
+          style={{ paddingHorizontal: screenPadding.horizontal }}
         >
           <TracksList scrollEnabled={false} />
         </ScrollView>
