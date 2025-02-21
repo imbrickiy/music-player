@@ -1,3 +1,4 @@
+import { StackScreenWithSearchBar } from "constants/layout";
 import { Stack } from "expo-router";
 import React from "react";
 import { View } from "react-native";
@@ -7,7 +8,10 @@ const WhishlistScreenLayout = () => {
   return (
     <View style={defaultStyles.container}>
       <Stack>
-        <Stack.Screen name="index" options={{ headerTitle: "Whishlist" }} />
+        <Stack.Screen
+          name="index"
+          options={{ ...StackScreenWithSearchBar, headerTitle: "Whishlist" }}
+        />
       </Stack>
     </View>
   );
