@@ -10,18 +10,12 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		242C3FCF87A98DEBECE223E0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 992293BE5A79565829BDDCAF /* PrivacyInfo.xcprivacy */; };
+		31CC2A6A8AA14CD7B4590ED6 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE568A3D9B2401FA08D886B /* noop-file.swift */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
+		49D4ABDECAF45A9141F9397D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 5BB3459801AA6E501085E9B6 /* PrivacyInfo.xcprivacy */; };
 		96905EF65AED1B983A6B3ABC /* libPods-musicplayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-musicplayer.a */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		CC169A067DAF45E38E17CF4C /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0224BEE12842FEBB6BD787 /* noop-file.swift */; };
-		07CE5D644FA94AB298A9BB78 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B099EF70D9B14E21B4C84F2B /* Montserrat-Bold.ttf */; };
-		453113D257CD48918E5EBB54 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C95E4602EE5E43D1B10BFD55 /* Montserrat-ExtraBold.ttf */; };
-		FD81369AF6F541C388438E05 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1F45EB6792040F491126E1D /* Montserrat-Light.ttf */; };
-		D02F2BE96D2646E998B75C1A /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD4CB11ED55C426A9127FF9D /* Montserrat-Medium.ttf */; };
-		CA4E7C034C274C1DA07D7E98 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B90AD7B7A0C4BD684284A1F /* Montserrat-Regular.ttf */; };
-		7F7E5E67570C4749BA86055D /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE72A49913EA4ECFA22C73D6 /* Montserrat-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,21 +26,15 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = musicplayer/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = musicplayer/main.m; sourceTree = "<group>"; };
 		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-musicplayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-musicplayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB3459801AA6E501085E9B6 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = musicplayer/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		6C2E3173556A471DD304B334 /* Pods-musicplayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-musicplayer.debug.xcconfig"; path = "Target Support Files/Pods-musicplayer/Pods-musicplayer.debug.xcconfig"; sourceTree = "<group>"; };
+		7558A9F3D3514AB09A1D1033 /* musicplayer-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "musicplayer-Bridging-Header.h"; path = "musicplayer/musicplayer-Bridging-Header.h"; sourceTree = "<group>"; };
 		7A4D352CD337FB3A3BF06240 /* Pods-musicplayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-musicplayer.release.xcconfig"; path = "Target Support Files/Pods-musicplayer/Pods-musicplayer.release.xcconfig"; sourceTree = "<group>"; };
-		8A0224BEE12842FEBB6BD787 /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "musicplayer/noop-file.swift"; sourceTree = "<group>"; };
-		992293BE5A79565829BDDCAF /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = musicplayer/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = musicplayer/SplashScreen.storyboard; sourceTree = "<group>"; };
-		AB133A0E35ED4ECD8973CD43 /* musicplayer-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "musicplayer-Bridging-Header.h"; path = "musicplayer/musicplayer-Bridging-Header.h"; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
+		CFE568A3D9B2401FA08D886B /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "musicplayer/noop-file.swift"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-musicplayer/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		B099EF70D9B14E21B4C84F2B /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; name = "Montserrat-Bold.ttf"; path = "../assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C95E4602EE5E43D1B10BFD55 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Montserrat-ExtraBold.ttf"; path = "../assets/fonts/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F1F45EB6792040F491126E1D /* Montserrat-Light.ttf */ = {isa = PBXFileReference; name = "Montserrat-Light.ttf"; path = "../assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CD4CB11ED55C426A9127FF9D /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; name = "Montserrat-Medium.ttf"; path = "../assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1B90AD7B7A0C4BD684284A1F /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; name = "Montserrat-Regular.ttf"; path = "../assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BE72A49913EA4ECFA22C73D6 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; name = "Montserrat-Thin.ttf"; path = "../assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +59,9 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				8A0224BEE12842FEBB6BD787 /* noop-file.swift */,
-				AB133A0E35ED4ECD8973CD43 /* musicplayer-Bridging-Header.h */,
-				992293BE5A79565829BDDCAF /* PrivacyInfo.xcprivacy */,
+				CFE568A3D9B2401FA08D886B /* noop-file.swift */,
+				7558A9F3D3514AB09A1D1033 /* musicplayer-Bridging-Header.h */,
+				5BB3459801AA6E501085E9B6 /* PrivacyInfo.xcprivacy */,
 			);
 			name = musicplayer;
 			sourceTree = "<group>";
@@ -103,7 +91,6 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D65327D7A22EEC0BE12398D9 /* Pods */,
 				D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */,
-				BF81B8EF909646F58148B41F /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -152,20 +139,6 @@
 			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
-		BF81B8EF909646F58148B41F /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				B099EF70D9B14E21B4C84F2B /* Montserrat-Bold.ttf */,
-				C95E4602EE5E43D1B10BFD55 /* Montserrat-ExtraBold.ttf */,
-				F1F45EB6792040F491126E1D /* Montserrat-Light.ttf */,
-				CD4CB11ED55C426A9127FF9D /* Montserrat-Medium.ttf */,
-				1B90AD7B7A0C4BD684284A1F /* Montserrat-Regular.ttf */,
-				BE72A49913EA4ECFA22C73D6 /* Montserrat-Thin.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -174,13 +147,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "musicplayer" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				24C12EB831EF4E2723E2FCEF /* [Expo] Configure project */,
+				200289BD1F81FE51BA352163 /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				66DCF043965F5B57CEA1276F /* [CP] Embed Pods Frameworks */,
+				D107DD82C90744DD57C43650 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,13 +203,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				242C3FCF87A98DEBECE223E0 /* PrivacyInfo.xcprivacy in Resources */,
-				07CE5D644FA94AB298A9BB78 /* Montserrat-Bold.ttf in Resources */,
-				453113D257CD48918E5EBB54 /* Montserrat-ExtraBold.ttf in Resources */,
-				FD81369AF6F541C388438E05 /* Montserrat-Light.ttf in Resources */,
-				D02F2BE96D2646E998B75C1A /* Montserrat-Medium.ttf in Resources */,
-				CA4E7C034C274C1DA07D7E98 /* Montserrat-Regular.ttf in Resources */,
-				7F7E5E67570C4749BA86055D /* Montserrat-Thin.ttf in Resources */,
+				49D4ABDECAF45A9141F9397D /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +247,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		24C12EB831EF4E2723E2FCEF /* [Expo] Configure project */ = {
+		200289BD1F81FE51BA352163 /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -298,24 +265,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-musicplayer/expo-configure-project.sh\"\n";
-		};
-		66DCF043965F5B57CEA1276F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-musicplayer/Pods-musicplayer-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-musicplayer/Pods-musicplayer-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -355,6 +304,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-musicplayer/Pods-musicplayer-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D107DD82C90744DD57C43650 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-musicplayer/Pods-musicplayer-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-musicplayer/Pods-musicplayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -365,7 +332,7 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */,
-				CC169A067DAF45E38E17CF4C /* noop-file.swift in Sources */,
+				31CC2A6A8AA14CD7B4590ED6 /* noop-file.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
   trackListItemContainer: {
     flexDirection: "row",
     alignItems: "center",
-    padding: 10,
+    // padding: 10,
   },
   trackArtworkImage: {
     width: 40,
